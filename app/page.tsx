@@ -9,7 +9,7 @@ import PatternPredictionRoom from '@/components/PatternPredictionRoomPage/Patter
 import BehavioralConflictZone from '@/components/BehavioralConflictZonePage/BehavioralConflictZone'
 
 export default function Home() {
-  const { focusedRoom, setFocusedRoom } = useRoomFocus('attention')
+  const { focusedRoom, setFocusedRoom } = useRoomFocus('conflict')
   const [copied, setCopied] = useState(false)
 
   const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS || '...'
@@ -74,11 +74,11 @@ export default function Home() {
               href={DEX_LINK}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-lab-text/70 hover:text-lab-accent transition-colors opacity-70 hover:opacity-100"
+              className="text-lab-text/70 hover:text-lab-accent transition-colors"
               aria-label="View on DexScreener"
             >
               <svg
-                className="w-6 h-6"
+                className="w-8 h-8"
                 viewBox="0 0 250 250"
                 fill="currentColor"
                 xmlns="http://www.w3.org/2000/svg"
