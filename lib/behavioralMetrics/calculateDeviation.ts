@@ -1,5 +1,5 @@
 /**
- * Calculates NOESIS deviation metric
+ * Calculates deviation metric
  * Measures how far the model's behavior deviates from expected patterns
  * Higher values indicate more deviation
  */

@@ -22,7 +22,7 @@ export default function BehavioralConflictZone({ isFocused, onFocus }: Behaviora
     >
       <div className="mb-6">
         <h2 className="text-xl font-mono font-semibold text-lab-accent mb-2">
-          NOESIS Conflict Zone
+          Behavioral Conflict Zone
         </h2>
         <p className="text-sm text-lab-text/70">
           Two models attempt to dominate or adapt to each other's behavior.

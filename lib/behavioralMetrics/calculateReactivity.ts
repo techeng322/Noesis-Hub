@@ -1,5 +1,5 @@
 /**
- * Calculates NOESIS reactivity metric
+ * Calculates reactivity metric
  * Measures how quickly the model responds to changes in environment
  * Higher values indicate more reactive behavior
  */

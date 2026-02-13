@@ -1,5 +1,5 @@
 /**
- * Calculates NOESIS variability metric
+ * Calculates variability metric
  * Measures how much the model's behavior changes over time
  * Higher values indicate more variable behavior
  */

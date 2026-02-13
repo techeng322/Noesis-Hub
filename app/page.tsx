@@ -39,12 +39,12 @@ export default function Home() {
             <div className="flex items-center gap-4">
               <img
                 src="/LOGO_transparent.png"
-                alt="NOESIS Logo"
+                alt="DigitalLab Logo"
                 className="h-16 w-auto"
               />
               <div>
                 <h1 className="text-2xl font-mono font-bold text-lab-accent mb-2">
-                  NOESIS - AI Observation Protocol
+                  DigitalLab - AI Observation Protocol
                 </h1>
                 <p className="text-xs font-mono text-lab-accent mt-1">
                   <span className="font-bold">CA:</span>{' '}
@@ -110,7 +110,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://x.com/noesis_lab"
+              href="https://x.com/DigitalLabAI"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lab-text/70 hover:text-lab-accent transition-colors"

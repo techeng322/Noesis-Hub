@@ -1,5 +1,5 @@
 /**
- * Calculates NOESIS stability metric
+ * Calculates stability metric
  * Measures how consistent the model's behavior is over time
  * Higher values indicate more stable behavior
  */

@@ -26,7 +26,7 @@ export default function PatternPredictionRoom({ isFocused, onFocus }: PatternPre
         </h2>
         <p className="text-sm text-lab-text/70">
           One model creates sequences, the other tries to predict the next element.
-          Goal: to demonstrate basic NOESIS modeling.
+          Goal: to demonstrate basic predictive modeling.
         </p>
       </div>
 
