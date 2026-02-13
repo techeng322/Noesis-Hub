@@ -94,7 +94,7 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://github.com/Topten1004/AI-Lab"
+              href="https://github.com/techeng322/Digital-Lab"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lab-text/70 hover:text-lab-accent transition-colors"
