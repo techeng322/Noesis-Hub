@@ -7,6 +7,7 @@ import AttentionResponseLab from '@/components/AttentionResponseLabPage/Attentio
 import ReactionTimeChamber from '@/components/ReactionTimeChamberPage/ReactionTimeChamber'
 import PatternPredictionRoom from '@/components/PatternPredictionRoomPage/PatternPredictionRoom'
 import BehavioralConflictZone from '@/components/BehavioralConflictZonePage/BehavioralConflictZone'
+import PageSlide from '@/components/PageSlide'
 
 export default function Home() {
   const { focusedRoom, setFocusedRoom } = useRoomFocus('conflict')
@@ -155,6 +156,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <PageSlide />
     </main>
   )
 }
