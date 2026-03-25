@@ -33,22 +33,28 @@ export const generateLogMessage = (
   // Enhanced weighted random selection with dynamic variation
   const rand = Math.random()
   let messageType: MessageTemplate
-  
+
   // Expanded weights to include new log types
-  if (rand < 0.08) {
+  if (rand < 0.05) {
     messageType = messages[0] // status
-  } else if (rand < 0.35) {
+  } else if (rand < 0.23) {
     messageType = messages[1] // stimulus
-  } else if (rand < 0.70) {
+  } else if (rand < 0.48) {
     messageType = messages[2] // detection
-  } else if (rand < 0.85) {
+  } else if (rand < 0.62) {
     messageType = messages[3] // miss
-  } else if (rand < 0.92) {
-    messageType = messages[4] // metric
-  } else if (rand < 0.96) {
-    messageType = messages[5] // anomaly
+  } else if (rand < 0.72) {
+    messageType = messages[4] // calibration
+  } else if (rand < 0.81) {
+    messageType = messages[5] // threshold
+  } else if (rand < 0.88) {
+    messageType = messages[6] // interference
+  } else if (rand < 0.93) {
+    messageType = messages[7] // metric
+  } else if (rand < 0.97) {
+    messageType = messages[8] // anomaly
   } else {
-    messageType = messages[6] // performance
+    messageType = messages[9] // performance
   }
 
   const template = messageType.templates[

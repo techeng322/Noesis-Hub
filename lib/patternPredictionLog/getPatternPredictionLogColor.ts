@@ -24,6 +24,12 @@ export const getPatternPredictionLogColor = (type: LogEntry['type']): string => 
       return 'text-blue-400'
     case 'variability':
       return 'text-purple-400'
+    case 'hypothesis':
+      return 'text-blue-500'
+    case 'confidence':
+      return 'text-purple-500'
+    case 'revision':
+      return 'text-orange-500'
     default:
       return 'text-lab-text'
   }

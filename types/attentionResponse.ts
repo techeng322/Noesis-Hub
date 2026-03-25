@@ -11,7 +11,7 @@ export interface LogEntry {
   id: number
   timestamp: string
   message: string
-  type: 'stimulus' | 'detection' | 'miss' | 'status' | 'metric' | 'anomaly' | 'performance' | 'stability' | 'variability'
+  type: 'stimulus' | 'detection' | 'miss' | 'status' | 'metric' | 'anomaly' | 'performance' | 'stability' | 'variability' | 'calibration' | 'threshold' | 'interference'
   experimentId?: string
   metrics?: {
     stability?: number

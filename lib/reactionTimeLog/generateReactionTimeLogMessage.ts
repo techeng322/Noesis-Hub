@@ -31,21 +31,27 @@ export const generateReactionTimeLogMessage = (
 
   const rand = Math.random()
   let messageType: MessageTemplate
-  
-  if (rand < 0.08) {
+
+  if (rand < 0.05) {
     messageType = messages[0] // status
-  } else if (rand < 0.35) {
+  } else if (rand < 0.23) {
     messageType = messages[1] // stimulus
-  } else if (rand < 0.65) {
+  } else if (rand < 0.44) {
     messageType = messages[2] // reaction
-  } else if (rand < 0.88) {
+  } else if (rand < 0.61) {
     messageType = messages[3] // latency
-  } else if (rand < 0.94) {
-    messageType = messages[4] // metric
+  } else if (rand < 0.69) {
+    messageType = messages[4] // warmup
+  } else if (rand < 0.77) {
+    messageType = messages[5] // burst
+  } else if (rand < 0.84) {
+    messageType = messages[6] // fatigue
+  } else if (rand < 0.91) {
+    messageType = messages[7] // metric
   } else if (rand < 0.97) {
-    messageType = messages[5] // anomaly
+    messageType = messages[8] // anomaly
   } else {
-    messageType = messages[6] // performance
+    messageType = messages[9] // performance
   }
 
   const template = messageType.templates[

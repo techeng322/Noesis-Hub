@@ -31,23 +31,29 @@ export const generateBehavioralConflictLogMessage = (
 
   const rand = Math.random()
   let messageType: MessageTemplate
-  
-  if (rand < 0.08) {
+
+  if (rand < 0.05) {
     messageType = messages[0] // status
-  } else if (rand < 0.35) {
+  } else if (rand < 0.20) {
     messageType = messages[1] // domination
-  } else if (rand < 0.55) {
+  } else if (rand < 0.32) {
     messageType = messages[2] // adaptation
-  } else if (rand < 0.75) {
+  } else if (rand < 0.44) {
     messageType = messages[3] // conflict
-  } else if (rand < 0.88) {
+  } else if (rand < 0.54) {
     messageType = messages[4] // balance
-  } else if (rand < 0.94) {
-    messageType = messages[5] // metric
+  } else if (rand < 0.64) {
+    messageType = messages[5] // negotiation
+  } else if (rand < 0.74) {
+    messageType = messages[6] // escalation
+  } else if (rand < 0.84) {
+    messageType = messages[7] // resolution
+  } else if (rand < 0.91) {
+    messageType = messages[8] // metric
   } else if (rand < 0.97) {
-    messageType = messages[6] // anomaly
+    messageType = messages[9] // anomaly
   } else {
-    messageType = messages[7] // performance
+    messageType = messages[10] // performance
   }
 
   const template = messageType.templates[

@@ -20,6 +20,12 @@ export const getLogColor = (type: LogEntry['type']): string => {
       return 'text-blue-400'
     case 'variability':
       return 'text-purple-400'
+    case 'calibration':
+      return 'text-blue-400'
+    case 'threshold':
+      return 'text-purple-500'
+    case 'interference':
+      return 'text-orange-500'
     default:
       return 'text-lab-text'
   }

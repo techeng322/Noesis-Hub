@@ -20,6 +20,12 @@ export const getReactionTimeLogColor = (type: LogEntry['type']): string => {
       return 'text-blue-400'
     case 'variability':
       return 'text-purple-400'
+    case 'warmup':
+      return 'text-blue-500'
+    case 'burst':
+      return 'text-purple-500'
+    case 'fatigue':
+      return 'text-orange-500'
     default:
       return 'text-lab-text'
   }

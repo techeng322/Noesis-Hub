@@ -22,6 +22,12 @@ export const getBehavioralConflictLogColor = (type: LogEntry['type']): string =>
       return 'text-blue-400'
     case 'variability':
       return 'text-purple-400'
+    case 'negotiation':
+      return 'text-blue-400'
+    case 'escalation':
+      return 'text-purple-500'
+    case 'resolution':
+      return 'text-green-400'
     default:
       return 'text-lab-text'
   }

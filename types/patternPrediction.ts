@@ -9,7 +9,7 @@ export interface LogEntry {
   id: number
   timestamp: string
   message: string
-  type: 'sequence' | 'prediction' | 'correct' | 'incorrect' | 'status' | 'adaptation' | 'metric' | 'anomaly' | 'performance' | 'stability' | 'variability'
+  type: 'sequence' | 'prediction' | 'correct' | 'incorrect' | 'status' | 'adaptation' | 'metric' | 'anomaly' | 'performance' | 'stability' | 'variability' | 'hypothesis' | 'confidence' | 'revision'
   experimentId?: string
   metrics?: {
     stability?: number
